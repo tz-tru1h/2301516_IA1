@@ -10,28 +10,29 @@ main{
 h1{
      text-align:center;
 }
-.navbar ul{
+.navbar ul {
     list-style-type: none;
     background-color: #2e3944;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
-}
-
-.navbar a{
-    color: white;
-    text-decoration: 0px;
-    padding: 15px;
-    display: block;
     text-align: center;
 }
 
-.navbar a:hover{
+.navbar a {
+    color: white;
+    text-decoration: 0px;
+    padding: 15px 25px;
+    display: inline-block;
+}
+
+.navbar a:hover {
     background-color: #212a31;
 }
 
-.navbar li{
-    float: left;
+.navbar li {
+    display: inline;
+    margin: 0 15px;
 }
 
 .section2{
